@@ -14,6 +14,8 @@ Install PowerCLI:
 ```
 PS> Install-Module -Name VMware.PowerCLI
 ```
+### Windows and MacOS
+You do you!
 
 You may find these settings useful:
 ```
