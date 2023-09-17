@@ -17,6 +17,7 @@ PS> Install-Module -Name VMware.PowerCLI
 ### Windows and MacOS
 You do you!
 
+## Notes
 You may find these settings useful:
 ```
 PS> Set-PowerCLIConfiguration -Scope User -ParticipateInCEIP $false
