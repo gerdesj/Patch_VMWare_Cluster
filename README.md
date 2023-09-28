@@ -14,8 +14,15 @@ Install PowerCLI:
 ```
 PS> Install-Module -Name VMware.PowerCLI
 ```
-### Windows and MacOS
-You do you!
+### Windows
+Install Powershell:
+```
+https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3
+```
+Install PowerCLI:
+```
+PS> Install-Module -Name VMware.PowerCLI
+```
 
 ## Usage
 Simply run the script from within Powershell with PowerCLI install.  There are a few parameters which are documented within the script and will be prompted for if not provided on the command line. 
