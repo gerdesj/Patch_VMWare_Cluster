@@ -246,4 +246,4 @@ foreach ($esxiHost in $esxiHosts) {
 "Finished moving VMs back to their original hosts"
 "Finished: $(Get-Date)"
 
-Disconnect-VIServer -Server $vc -Confirm:$false
+Disconnect-VIServer -Server * -Force -Confirm:$false
